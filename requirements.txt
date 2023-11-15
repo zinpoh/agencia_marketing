@@ -1,0 +1,8 @@
+django==4.2.7 # nuestro backend
+django-environ==0.11.2 # permite proteger la key de settings
+django-cors-headers==4.3.1 # permite conectar el backend con el frontend, y da acceso a quien debe ingresar a la compañia o no
+djangorestframework==3.14.0 # esto es lo que nos permite crear api con django
+Pillow==10.1.0 # para colocar imagenes
+django-storages==1.14.2 # para guardar las imagenes o videos y que pesen y que sean dinamicos y tulizamos algo como amazon sd3
+django-ckeditor==6.7.0 # permite que el contenido de la pagina sea mas completa 
+psycopg2==2.9.9 # permite tabajar con la DB Postgres/SQL
